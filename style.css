@@ -24,7 +24,7 @@ body {
     background-size: cover;
     background-position-x: right;
     background-repeat: no-repeat;
-    background-attachment: scroll; /* запасной вариант для Safari */
+    background-attachment: fixed; /* запасной вариант для Safari */
     margin: 0;
 }
 .shadow {
