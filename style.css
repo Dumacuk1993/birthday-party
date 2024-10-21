@@ -23,6 +23,7 @@ body {
     font-size: 16px;
     background-image: url("./n2.jpg");
     background-size: cover;
+    background-position-x: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
