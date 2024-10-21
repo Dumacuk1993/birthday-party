@@ -1,0 +1,19 @@
+@media (max-width: 800px) {
+    .adres,
+    .content {
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 42px;
+        line-height: 1.4;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .adres p,
+    .content p {
+        font-size: 20px;
+    }
+}
