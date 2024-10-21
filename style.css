@@ -7,7 +7,7 @@ p {
 a {
     color: #fcca75;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease; /* более специфично */
 }
 body {
     background-color: transparent;
@@ -16,7 +16,6 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
-    /* font-family: "Great Vibes", cursive; */
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -25,7 +24,7 @@ body {
     background-size: cover;
     background-position-x: right;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll; /* запасной вариант для Safari */
     margin: 0;
 }
 .shadow {
@@ -68,7 +67,7 @@ h2 span {
     color: #fcca75;
     font-family: "Great Vibes", cursive;
 }
-.confetti img{
+.confetti img {
     display: block;
     margin: 0 auto;
     margin-top: 96px;
