@@ -28,8 +28,9 @@
             </div>
             <div class="adres">
                 <p style="color: #fff;margin-bottom: 16px;">Место проведения:</p>
-                <p>Loft Пространство</p>
+                <p>LoftПространство</p>
                 <p><a href="https://yandex.ru/maps/-/CDdCmM29" target="_blank">г.Пушкино, Кавезинский проезд, вл.21</a></p>
+                <p style="color: #fff;">P.S. Вход в LoftПространство только в сменной обуви. Просим выполнить это требование.</p>
             </div>
             <div class="confetti">
                 <img src="confetti.png" alt="">
@@ -42,11 +43,34 @@
                 <img src="confetti.png" alt="">
             </div>
             <div class="content">
-                <p><span>Поделитесь своими воспоминаниями!</span> Я буду рад услышать интересные истории о наших встречах.</p>
+                <p><span>Поделитесь своими воспоминаниями!</span> Будем рады вместе с тостами услышать смешные истории об имениннике в стиле STAND UP.</p>
                 <p><span>Принесите хорошее настроение!</span> Это самый главный подарок на празднике.</p>
                 <p><span>Будьте открыты для общения и веселья!</span> Давайте создадим незабываемую атмосферу вместе.</p>
                 <p><span>Ваше присутствие — лучший подарок!</span> А если вы хотите сделать что-то дополнительно, финансовая поддержка тоже будет весьма кстати!</p>
             </div>
+
+            <section class="main_form">
+                <div class="container">
+                    <iframe id="myIframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdnqPDtyQNDbJhiB_OU2u60lnJ2iOBSYX7gxvKjN-qC-OwNAg/viewform?embedded=true" width="640" height="656" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+                </div>
+            </section>
+
+            <script>
+                document.getElementById('myIframe').addEventListener('load', function() {
+                  const iframeDocument = this.contentDocument || this.contentWindow.document;
+                  const targetElement = iframeDocument.querySelector('.xpWfed');
+                  console.log(targetElement);
+                  
+                  if (targetElement) {
+                    targetElement.style.display = 'none';
+                  }
+                });
+              </script>
+            <style>
+                .xpWfed {
+                    display: none;
+                }
+            </style>
         </div>
     </section>
 </body>

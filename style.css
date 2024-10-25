@@ -115,3 +115,13 @@ h2 span {
     display: block;
     color: #fcca75;
 }
+.main_form {
+    margin-top: 80px;
+}
+.main_form .container {
+    display: flex;
+    justify-content: center;
+}
+.main_form iframe {
+    height: 800px;
+}
