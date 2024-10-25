@@ -117,8 +117,6 @@ h2 span {
 }
 .main_form {
     margin-top: 80px;
-}
-.main_form .container {
     display: flex;
     justify-content: center;
 }
