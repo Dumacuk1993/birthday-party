@@ -22,4 +22,17 @@
     .content p {
         font-size: 20px;
     }
+    .main_times_dots {
+        font-size: 30px;
+        width: 16px;
+    }
+    .main_times_item {
+        width: 60px;
+    }
+    .number  {
+        font-size: 32px;
+    }
+    .main_times_item p {
+        font-size: 10px;
+    }
 }

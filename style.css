@@ -123,3 +123,41 @@ h2 span {
 .main_form iframe {
     height: 800px;
 }
+
+
+
+
+.main_times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_times_item {
+    border-radius: 16px;
+    background-color: #282828;
+    padding: 16px;
+    width: 90px;
+}
+.number {
+    color: #ffffff;
+    font-size: 60px;   
+    font-weight: 700;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Great Vibes", cursive;
+}
+.main_times_item p {
+    color: #f1cb7a;
+    font-size: 14px;
+    text-align: center;
+}
+.main_times_dots {
+    color: #fcca75;
+    font-size: 50px;  
+    width: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
