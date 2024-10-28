@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const targetDate = new Date('2024-11-23 16:00:00').getTime();
-
+    // const targetDate = new Date('2024-11-23 16:00:00').getTime();
+    const targetDate = new Date('11/23/2024 16:00:00').getTime();
+    
     function updateTimer() {
         const currentDate = new Date().getTime();
         const timeRemaining = targetDate - currentDate;
